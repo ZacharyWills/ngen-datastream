@@ -80,6 +80,10 @@ NWM_FORCINGS_DIR=""
 NGEN_FORCINGS=""
 S3_MOUNT=""
 S3_PREFIX=""
+#macOS command for getting the physical nprocs 
+#sysctl -n hw.physicalcpu 
+#macOS command for getting the logical nprocs, for Intel-based macs
+#sysctl -n hw.logicalcpu
 NPROCS=4
 
 PKL_FILE=""
